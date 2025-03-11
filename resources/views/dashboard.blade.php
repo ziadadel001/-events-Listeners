@@ -14,4 +14,9 @@
             </div>
         </div>
     </div>
+
+//test Registed User
+    {{-- @foreach(auth()->user()->notifications as $notification)
+    <p>{{ $notification->data['message'] }}</p>
+@endforeach --}}
 </x-app-layout>
